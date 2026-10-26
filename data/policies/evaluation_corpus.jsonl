@@ -1,0 +1,120 @@
+{"policy_id": "eval-001-1", "family": "wait-minutes", "language": "en", "text": "Do not keep passengers waiting more than 5 minutes for pickup.", "gold": {"max_wait_s": 300}}
+{"policy_id": "eval-001-2", "family": "wait-minutes", "language": "en", "text": "Do not keep passengers waiting more than 8 minutes for pickup.", "gold": {"max_wait_s": 480}}
+{"policy_id": "eval-001-3", "family": "wait-minutes", "language": "en", "text": "Do not keep passengers waiting more than 10 minutes for pickup.", "gold": {"max_wait_s": 600}}
+{"policy_id": "eval-001-4", "family": "wait-minutes", "language": "en", "text": "Do not keep passengers waiting more than 12 minutes for pickup.", "gold": {"max_wait_s": 720}}
+{"policy_id": "eval-001-5", "family": "wait-minutes", "language": "en", "text": "Do not keep passengers waiting more than 15 minutes for pickup.", "gold": {"max_wait_s": 900}}
+{"policy_id": "eval-002-1", "family": "wait-seconds", "language": "en", "text": "Set the maximum pickup wait to 300 seconds.", "gold": {"max_wait_s": 300}}
+{"policy_id": "eval-002-2", "family": "wait-seconds", "language": "en", "text": "Set the maximum pickup wait to 480 seconds.", "gold": {"max_wait_s": 480}}
+{"policy_id": "eval-002-3", "family": "wait-seconds", "language": "en", "text": "Set the maximum pickup wait to 600 seconds.", "gold": {"max_wait_s": 600}}
+{"policy_id": "eval-002-4", "family": "wait-seconds", "language": "en", "text": "Set the maximum pickup wait to 720 seconds.", "gold": {"max_wait_s": 720}}
+{"policy_id": "eval-002-5", "family": "wait-seconds", "language": "en", "text": "Set the maximum pickup wait to 900 seconds.", "gold": {"max_wait_s": 900}}
+{"policy_id": "eval-003-1", "family": "wait-paraphrase", "language": "en", "text": "Passengers should not wait longer than 5 minutes before being picked up.", "gold": {"max_wait_s": 300}}
+{"policy_id": "eval-003-2", "family": "wait-paraphrase", "language": "en", "text": "Passengers should not wait longer than 8 minutes before being picked up.", "gold": {"max_wait_s": 480}}
+{"policy_id": "eval-003-3", "family": "wait-paraphrase", "language": "en", "text": "Passengers should not wait longer than 10 minutes before being picked up.", "gold": {"max_wait_s": 600}}
+{"policy_id": "eval-003-4", "family": "wait-paraphrase", "language": "en", "text": "Passengers should not wait longer than 12 minutes before being picked up.", "gold": {"max_wait_s": 720}}
+{"policy_id": "eval-003-5", "family": "wait-paraphrase", "language": "en", "text": "Passengers should not wait longer than 15 minutes before being picked up.", "gold": {"max_wait_s": 900}}
+{"policy_id": "eval-004-1", "family": "detour-percent", "language": "en", "text": "Additional onboard time may not exceed 20 percent of the direct ride.", "gold": {"max_detour_ratio": 0.2}}
+{"policy_id": "eval-004-2", "family": "detour-percent", "language": "en", "text": "Additional onboard time may not exceed 25 percent of the direct ride.", "gold": {"max_detour_ratio": 0.25}}
+{"policy_id": "eval-004-3", "family": "detour-percent", "language": "en", "text": "Additional onboard time may not exceed 30 percent of the direct ride.", "gold": {"max_detour_ratio": 0.3}}
+{"policy_id": "eval-004-4", "family": "detour-percent", "language": "en", "text": "Additional onboard time may not exceed 40 percent of the direct ride.", "gold": {"max_detour_ratio": 0.4}}
+{"policy_id": "eval-004-5", "family": "detour-percent", "language": "en", "text": "Additional onboard time may not exceed 50 percent of the direct ride.", "gold": {"max_detour_ratio": 0.5}}
+{"policy_id": "eval-005-1", "family": "detour-fraction", "language": "en", "text": "Cap the onboard detour at 0.2 of direct travel time.", "gold": {"max_detour_ratio": 0.2}}
+{"policy_id": "eval-005-2", "family": "detour-fraction", "language": "en", "text": "Cap the onboard detour at 0.25 of direct travel time.", "gold": {"max_detour_ratio": 0.25}}
+{"policy_id": "eval-005-3", "family": "detour-fraction", "language": "en", "text": "Cap the onboard detour at 0.3 of direct travel time.", "gold": {"max_detour_ratio": 0.3}}
+{"policy_id": "eval-005-4", "family": "detour-fraction", "language": "en", "text": "Cap the onboard detour at 0.4 of direct travel time.", "gold": {"max_detour_ratio": 0.4}}
+{"policy_id": "eval-005-5", "family": "detour-fraction", "language": "en", "text": "Cap the onboard detour at 0.5 of direct travel time.", "gold": {"max_detour_ratio": 0.5}}
+{"policy_id": "eval-006-1", "family": "detour-delay", "language": "en", "text": "A shared passenger's extra time in the vehicle is limited to 20 percent of a direct trip.", "gold": {"max_detour_ratio": 0.2}}
+{"policy_id": "eval-006-2", "family": "detour-delay", "language": "en", "text": "A shared passenger's extra time in the vehicle is limited to 25 percent of a direct trip.", "gold": {"max_detour_ratio": 0.25}}
+{"policy_id": "eval-006-3", "family": "detour-delay", "language": "en", "text": "A shared passenger's extra time in the vehicle is limited to 30 percent of a direct trip.", "gold": {"max_detour_ratio": 0.3}}
+{"policy_id": "eval-006-4", "family": "detour-delay", "language": "en", "text": "A shared passenger's extra time in the vehicle is limited to 40 percent of a direct trip.", "gold": {"max_detour_ratio": 0.4}}
+{"policy_id": "eval-006-5", "family": "detour-delay", "language": "en", "text": "A shared passenger's extra time in the vehicle is limited to 50 percent of a direct trip.", "gold": {"max_detour_ratio": 0.5}}
+{"policy_id": "eval-007-1", "family": "parties-groups", "language": "en", "text": "No vehicle may carry more than 2 passenger groups at once.", "gold": {"max_parties": 2}}
+{"policy_id": "eval-007-2", "family": "parties-groups", "language": "en", "text": "No vehicle may carry more than 3 passenger groups at once.", "gold": {"max_parties": 3}}
+{"policy_id": "eval-007-3", "family": "parties-groups", "language": "en", "text": "No vehicle may carry more than 2 passenger groups at once.", "gold": {"max_parties": 2}}
+{"policy_id": "eval-007-4", "family": "parties-groups", "language": "en", "text": "No vehicle may carry more than 3 passenger groups at once.", "gold": {"max_parties": 3}}
+{"policy_id": "eval-007-5", "family": "parties-groups", "language": "en", "text": "No vehicle may carry more than 4 passenger groups at once.", "gold": {"max_parties": 4}}
+{"policy_id": "eval-008-1", "family": "parties-per-vehicle", "language": "en", "text": "Per vehicle, allow at most 2 separate passenger parties.", "gold": {"max_parties": 2}}
+{"policy_id": "eval-008-2", "family": "parties-per-vehicle", "language": "en", "text": "Per vehicle, allow at most 3 separate passenger parties.", "gold": {"max_parties": 3}}
+{"policy_id": "eval-008-3", "family": "parties-per-vehicle", "language": "en", "text": "Per vehicle, allow at most 2 separate passenger parties.", "gold": {"max_parties": 2}}
+{"policy_id": "eval-008-4", "family": "parties-per-vehicle", "language": "en", "text": "Per vehicle, allow at most 3 separate passenger parties.", "gold": {"max_parties": 3}}
+{"policy_id": "eval-008-5", "family": "parties-per-vehicle", "language": "en", "text": "Per vehicle, allow at most 4 separate passenger parties.", "gold": {"max_parties": 4}}
+{"policy_id": "eval-009-1", "family": "fleet-deploy", "language": "en", "text": "Deploy 6 vehicles for this operating window.", "gold": {"fleet_size": 6}}
+{"policy_id": "eval-009-2", "family": "fleet-deploy", "language": "en", "text": "Deploy 8 vehicles for this operating window.", "gold": {"fleet_size": 8}}
+{"policy_id": "eval-009-3", "family": "fleet-deploy", "language": "en", "text": "Deploy 10 vehicles for this operating window.", "gold": {"fleet_size": 10}}
+{"policy_id": "eval-009-4", "family": "fleet-deploy", "language": "en", "text": "Deploy 12 vehicles for this operating window.", "gold": {"fleet_size": 12}}
+{"policy_id": "eval-009-5", "family": "fleet-deploy", "language": "en", "text": "Deploy 15 vehicles for this operating window.", "gold": {"fleet_size": 15}}
+{"policy_id": "eval-010-1", "family": "fleet-service", "language": "en", "text": "Use 6 vehicles into service during the peak.", "gold": {"fleet_size": 6}}
+{"policy_id": "eval-010-2", "family": "fleet-service", "language": "en", "text": "Use 8 vehicles into service during the peak.", "gold": {"fleet_size": 8}}
+{"policy_id": "eval-010-3", "family": "fleet-service", "language": "en", "text": "Use 10 vehicles into service during the peak.", "gold": {"fleet_size": 10}}
+{"policy_id": "eval-010-4", "family": "fleet-service", "language": "en", "text": "Use 12 vehicles into service during the peak.", "gold": {"fleet_size": 12}}
+{"policy_id": "eval-010-5", "family": "fleet-service", "language": "en", "text": "Use 15 vehicles into service during the peak.", "gold": {"fleet_size": 15}}
+{"policy_id": "eval-011-1", "family": "penalty-hours", "language": "en", "text": "Charge an unserved shared request as 1 hours of passenger delay.", "gold": {"unserved_penalty_s": 3600}}
+{"policy_id": "eval-011-2", "family": "penalty-hours", "language": "en", "text": "Charge an unserved shared request as 2 hours of passenger delay.", "gold": {"unserved_penalty_s": 7200}}
+{"policy_id": "eval-011-3", "family": "penalty-hours", "language": "en", "text": "Charge an unserved shared request as 1 hours of passenger delay.", "gold": {"unserved_penalty_s": 3600}}
+{"policy_id": "eval-011-4", "family": "penalty-hours", "language": "en", "text": "Charge an unserved shared request as 2 hours of passenger delay.", "gold": {"unserved_penalty_s": 7200}}
+{"policy_id": "eval-011-5", "family": "penalty-hours", "language": "en", "text": "Charge an unserved shared request as 3 hours of passenger delay.", "gold": {"unserved_penalty_s": 10800}}
+{"policy_id": "eval-012-1", "family": "penalty-minutes", "language": "en", "text": "Treat each unmet shared request as a penalty of 60 minutes.", "gold": {"unserved_penalty_s": 3600}}
+{"policy_id": "eval-012-2", "family": "penalty-minutes", "language": "en", "text": "Treat each unmet shared request as a penalty of 90 minutes.", "gold": {"unserved_penalty_s": 5400}}
+{"policy_id": "eval-012-3", "family": "penalty-minutes", "language": "en", "text": "Treat each unmet shared request as a penalty of 45 minutes.", "gold": {"unserved_penalty_s": 2700}}
+{"policy_id": "eval-012-4", "family": "penalty-minutes", "language": "en", "text": "Treat each unmet shared request as a penalty of 75 minutes.", "gold": {"unserved_penalty_s": 4500}}
+{"policy_id": "eval-012-5", "family": "penalty-minutes", "language": "en", "text": "Treat each unmet shared request as a penalty of 120 minutes.", "gold": {"unserved_penalty_s": 7200}}
+{"policy_id": "eval-013-1", "family": "combo-wait-detour", "language": "en", "text": "Cap pickup wait at 5 minutes and additional onboard time at 20 percent.", "gold": {"max_wait_s": 300, "max_detour_ratio": 0.2}}
+{"policy_id": "eval-013-2", "family": "combo-wait-detour", "language": "en", "text": "Cap pickup wait at 8 minutes and additional onboard time at 25 percent.", "gold": {"max_wait_s": 480, "max_detour_ratio": 0.25}}
+{"policy_id": "eval-013-3", "family": "combo-wait-detour", "language": "en", "text": "Cap pickup wait at 10 minutes and additional onboard time at 30 percent.", "gold": {"max_wait_s": 600, "max_detour_ratio": 0.3}}
+{"policy_id": "eval-013-4", "family": "combo-wait-detour", "language": "en", "text": "Cap pickup wait at 12 minutes and additional onboard time at 40 percent.", "gold": {"max_wait_s": 720, "max_detour_ratio": 0.4}}
+{"policy_id": "eval-013-5", "family": "combo-wait-detour", "language": "en", "text": "Cap pickup wait at 15 minutes and additional onboard time at 50 percent.", "gold": {"max_wait_s": 900, "max_detour_ratio": 0.5}}
+{"policy_id": "eval-014-1", "family": "combo-wait-parties", "language": "en", "text": "Limit pickup wait to 5 minutes and vehicles to 2 parties.", "gold": {"max_wait_s": 300, "max_parties": 2}}
+{"policy_id": "eval-014-2", "family": "combo-wait-parties", "language": "en", "text": "Limit pickup wait to 8 minutes and vehicles to 3 parties.", "gold": {"max_wait_s": 480, "max_parties": 3}}
+{"policy_id": "eval-014-3", "family": "combo-wait-parties", "language": "en", "text": "Limit pickup wait to 10 minutes and vehicles to 2 parties.", "gold": {"max_wait_s": 600, "max_parties": 2}}
+{"policy_id": "eval-014-4", "family": "combo-wait-parties", "language": "en", "text": "Limit pickup wait to 12 minutes and vehicles to 3 parties.", "gold": {"max_wait_s": 720, "max_parties": 3}}
+{"policy_id": "eval-014-5", "family": "combo-wait-parties", "language": "en", "text": "Limit pickup wait to 15 minutes and vehicles to 4 parties.", "gold": {"max_wait_s": 900, "max_parties": 4}}
+{"policy_id": "eval-015-1", "family": "combo-fleet-wait-detour", "language": "en", "text": "Put 6 vehicles into service, cap pickup wait at 5 minutes, and keep detours below 20 percent.", "gold": {"fleet_size": 6, "max_wait_s": 300, "max_detour_ratio": 0.2}}
+{"policy_id": "eval-015-2", "family": "combo-fleet-wait-detour", "language": "en", "text": "Put 8 vehicles into service, cap pickup wait at 8 minutes, and keep detours below 25 percent.", "gold": {"fleet_size": 8, "max_wait_s": 480, "max_detour_ratio": 0.25}}
+{"policy_id": "eval-015-3", "family": "combo-fleet-wait-detour", "language": "en", "text": "Put 10 vehicles into service, cap pickup wait at 10 minutes, and keep detours below 30 percent.", "gold": {"fleet_size": 10, "max_wait_s": 600, "max_detour_ratio": 0.3}}
+{"policy_id": "eval-015-4", "family": "combo-fleet-wait-detour", "language": "en", "text": "Put 12 vehicles into service, cap pickup wait at 12 minutes, and keep detours below 40 percent.", "gold": {"fleet_size": 12, "max_wait_s": 720, "max_detour_ratio": 0.4}}
+{"policy_id": "eval-015-5", "family": "combo-fleet-wait-detour", "language": "en", "text": "Put 15 vehicles into service, cap pickup wait at 15 minutes, and keep detours below 50 percent.", "gold": {"fleet_size": 15, "max_wait_s": 900, "max_detour_ratio": 0.5}}
+{"policy_id": "eval-016-1", "family": "combo-detour-parties", "language": "en", "text": "Keep each vehicle to 2 parties and limit detour to 20 percent of the direct ride.", "gold": {"max_parties": 2, "max_detour_ratio": 0.2}}
+{"policy_id": "eval-016-2", "family": "combo-detour-parties", "language": "en", "text": "Keep each vehicle to 3 parties and limit detour to 25 percent of the direct ride.", "gold": {"max_parties": 3, "max_detour_ratio": 0.25}}
+{"policy_id": "eval-016-3", "family": "combo-detour-parties", "language": "en", "text": "Keep each vehicle to 2 parties and limit detour to 30 percent of the direct ride.", "gold": {"max_parties": 2, "max_detour_ratio": 0.3}}
+{"policy_id": "eval-016-4", "family": "combo-detour-parties", "language": "en", "text": "Keep each vehicle to 3 parties and limit detour to 40 percent of the direct ride.", "gold": {"max_parties": 3, "max_detour_ratio": 0.4}}
+{"policy_id": "eval-016-5", "family": "combo-detour-parties", "language": "en", "text": "Keep each vehicle to 4 parties and limit detour to 50 percent of the direct ride.", "gold": {"max_parties": 4, "max_detour_ratio": 0.5}}
+{"policy_id": "eval-017-1", "family": "zh-wait", "language": "zh", "text": "\u63a5\u9a7e\u7b49\u5f85\u65f6\u95f4\u4e0d\u5f97\u8d85\u8fc75\u5206\u949f\u3002", "gold": {"max_wait_s": 300}}
+{"policy_id": "eval-017-2", "family": "zh-wait", "language": "zh", "text": "\u63a5\u9a7e\u7b49\u5f85\u65f6\u95f4\u4e0d\u5f97\u8d85\u8fc78\u5206\u949f\u3002", "gold": {"max_wait_s": 480}}
+{"policy_id": "eval-017-3", "family": "zh-wait", "language": "zh", "text": "\u63a5\u9a7e\u7b49\u5f85\u65f6\u95f4\u4e0d\u5f97\u8d85\u8fc710\u5206\u949f\u3002", "gold": {"max_wait_s": 600}}
+{"policy_id": "eval-017-4", "family": "zh-wait", "language": "zh", "text": "\u63a5\u9a7e\u7b49\u5f85\u65f6\u95f4\u4e0d\u5f97\u8d85\u8fc712\u5206\u949f\u3002", "gold": {"max_wait_s": 720}}
+{"policy_id": "eval-017-5", "family": "zh-wait", "language": "zh", "text": "\u63a5\u9a7e\u7b49\u5f85\u65f6\u95f4\u4e0d\u5f97\u8d85\u8fc715\u5206\u949f\u3002", "gold": {"max_wait_s": 900}}
+{"policy_id": "eval-018-1", "family": "zh-detour", "language": "zh", "text": "\u62fc\u8f66\u989d\u5916\u4e58\u5750\u65f6\u95f4\u4e0d\u5f97\u8d85\u8fc7\u76f4\u8fbe\u65f6\u95f4\u768420%\u3002", "gold": {"max_detour_ratio": 0.2}}
+{"policy_id": "eval-018-2", "family": "zh-detour", "language": "zh", "text": "\u62fc\u8f66\u989d\u5916\u4e58\u5750\u65f6\u95f4\u4e0d\u5f97\u8d85\u8fc7\u76f4\u8fbe\u65f6\u95f4\u768425%\u3002", "gold": {"max_detour_ratio": 0.25}}
+{"policy_id": "eval-018-3", "family": "zh-detour", "language": "zh", "text": "\u62fc\u8f66\u989d\u5916\u4e58\u5750\u65f6\u95f4\u4e0d\u5f97\u8d85\u8fc7\u76f4\u8fbe\u65f6\u95f4\u768430%\u3002", "gold": {"max_detour_ratio": 0.3}}
+{"policy_id": "eval-018-4", "family": "zh-detour", "language": "zh", "text": "\u62fc\u8f66\u989d\u5916\u4e58\u5750\u65f6\u95f4\u4e0d\u5f97\u8d85\u8fc7\u76f4\u8fbe\u65f6\u95f4\u768440%\u3002", "gold": {"max_detour_ratio": 0.4}}
+{"policy_id": "eval-018-5", "family": "zh-detour", "language": "zh", "text": "\u62fc\u8f66\u989d\u5916\u4e58\u5750\u65f6\u95f4\u4e0d\u5f97\u8d85\u8fc7\u76f4\u8fbe\u65f6\u95f4\u768450%\u3002", "gold": {"max_detour_ratio": 0.5}}
+{"policy_id": "eval-019-1", "family": "zh-parties", "language": "zh", "text": "\u6bcf\u8f86\u8f66\u540c\u65f6\u6700\u591a\u670d\u52a12\u7ec4\u4e58\u5ba2\u3002", "gold": {"max_parties": 2}}
+{"policy_id": "eval-019-2", "family": "zh-parties", "language": "zh", "text": "\u6bcf\u8f86\u8f66\u540c\u65f6\u6700\u591a\u670d\u52a13\u7ec4\u4e58\u5ba2\u3002", "gold": {"max_parties": 3}}
+{"policy_id": "eval-019-3", "family": "zh-parties", "language": "zh", "text": "\u6bcf\u8f86\u8f66\u540c\u65f6\u6700\u591a\u670d\u52a12\u7ec4\u4e58\u5ba2\u3002", "gold": {"max_parties": 2}}
+{"policy_id": "eval-019-4", "family": "zh-parties", "language": "zh", "text": "\u6bcf\u8f86\u8f66\u540c\u65f6\u6700\u591a\u670d\u52a13\u7ec4\u4e58\u5ba2\u3002", "gold": {"max_parties": 3}}
+{"policy_id": "eval-019-5", "family": "zh-parties", "language": "zh", "text": "\u6bcf\u8f86\u8f66\u540c\u65f6\u6700\u591a\u670d\u52a14\u7ec4\u4e58\u5ba2\u3002", "gold": {"max_parties": 4}}
+{"policy_id": "eval-020-1", "family": "zh-fleet-wait", "language": "zh", "text": "\u672c\u65f6\u6bb5\u6295\u51656\u8f86\u8f66\uff0c\u63a5\u9a7e\u7b49\u5f85\u4e0a\u9650\u4e3a5\u5206\u949f\u3002", "gold": {"fleet_size": 6, "max_wait_s": 300}}
+{"policy_id": "eval-020-2", "family": "zh-fleet-wait", "language": "zh", "text": "\u672c\u65f6\u6bb5\u6295\u51658\u8f86\u8f66\uff0c\u63a5\u9a7e\u7b49\u5f85\u4e0a\u9650\u4e3a8\u5206\u949f\u3002", "gold": {"fleet_size": 8, "max_wait_s": 480}}
+{"policy_id": "eval-020-3", "family": "zh-fleet-wait", "language": "zh", "text": "\u672c\u65f6\u6bb5\u6295\u516510\u8f86\u8f66\uff0c\u63a5\u9a7e\u7b49\u5f85\u4e0a\u9650\u4e3a10\u5206\u949f\u3002", "gold": {"fleet_size": 10, "max_wait_s": 600}}
+{"policy_id": "eval-020-4", "family": "zh-fleet-wait", "language": "zh", "text": "\u672c\u65f6\u6bb5\u6295\u516512\u8f86\u8f66\uff0c\u63a5\u9a7e\u7b49\u5f85\u4e0a\u9650\u4e3a12\u5206\u949f\u3002", "gold": {"fleet_size": 12, "max_wait_s": 720}}
+{"policy_id": "eval-020-5", "family": "zh-fleet-wait", "language": "zh", "text": "\u672c\u65f6\u6bb5\u6295\u516515\u8f86\u8f66\uff0c\u63a5\u9a7e\u7b49\u5f85\u4e0a\u9650\u4e3a15\u5206\u949f\u3002", "gold": {"fleet_size": 15, "max_wait_s": 900}}
+{"policy_id": "eval-021-1", "family": "no-change-en", "language": "en", "text": "Keep the current pooling policy unchanged.", "gold": {}}
+{"policy_id": "eval-021-2", "family": "no-change-en", "language": "en", "text": "Keep the current pooling policy unchanged.", "gold": {}}
+{"policy_id": "eval-021-3", "family": "no-change-en", "language": "en", "text": "Keep the current pooling policy unchanged.", "gold": {}}
+{"policy_id": "eval-021-4", "family": "no-change-en", "language": "en", "text": "Keep the current pooling policy unchanged.", "gold": {}}
+{"policy_id": "eval-021-5", "family": "no-change-en", "language": "en", "text": "Keep the current pooling policy unchanged.", "gold": {}}
+{"policy_id": "eval-022-1", "family": "no-change-zh", "language": "zh", "text": "\u4fdd\u6301\u5f53\u524d\u62fc\u8f66\u7b56\u7565\u4e0d\u53d8\u3002", "gold": {}}
+{"policy_id": "eval-022-2", "family": "no-change-zh", "language": "zh", "text": "\u4fdd\u6301\u5f53\u524d\u62fc\u8f66\u7b56\u7565\u4e0d\u53d8\u3002", "gold": {}}
+{"policy_id": "eval-022-3", "family": "no-change-zh", "language": "zh", "text": "\u4fdd\u6301\u5f53\u524d\u62fc\u8f66\u7b56\u7565\u4e0d\u53d8\u3002", "gold": {}}
+{"policy_id": "eval-022-4", "family": "no-change-zh", "language": "zh", "text": "\u4fdd\u6301\u5f53\u524d\u62fc\u8f66\u7b56\u7565\u4e0d\u53d8\u3002", "gold": {}}
+{"policy_id": "eval-022-5", "family": "no-change-zh", "language": "zh", "text": "\u4fdd\u6301\u5f53\u524d\u62fc\u8f66\u7b56\u7565\u4e0d\u53d8\u3002", "gold": {}}
+{"policy_id": "eval-023-1", "family": "distractor-fleet-wait", "language": "en", "text": "Fleet utilization should be monitored, but the only policy change is a 5-minute pickup wait cap.", "gold": {"max_wait_s": 300}}
+{"policy_id": "eval-023-2", "family": "distractor-fleet-wait", "language": "en", "text": "Fleet utilization should be monitored, but the only policy change is a 8-minute pickup wait cap.", "gold": {"max_wait_s": 480}}
+{"policy_id": "eval-023-3", "family": "distractor-fleet-wait", "language": "en", "text": "Fleet utilization should be monitored, but the only policy change is a 10-minute pickup wait cap.", "gold": {"max_wait_s": 600}}
+{"policy_id": "eval-023-4", "family": "distractor-fleet-wait", "language": "en", "text": "Fleet utilization should be monitored, but the only policy change is a 12-minute pickup wait cap.", "gold": {"max_wait_s": 720}}
+{"policy_id": "eval-023-5", "family": "distractor-fleet-wait", "language": "en", "text": "Fleet utilization should be monitored, but the only policy change is a 15-minute pickup wait cap.", "gold": {"max_wait_s": 900}}
+{"policy_id": "eval-024-1", "family": "distractor-idle-detour", "language": "en", "text": "Vehicles should avoid unnecessary idling; cap additional onboard time to 20 percent of a direct ride.", "gold": {"max_detour_ratio": 0.2}}
+{"policy_id": "eval-024-2", "family": "distractor-idle-detour", "language": "en", "text": "Vehicles should avoid unnecessary idling; cap additional onboard time to 25 percent of a direct ride.", "gold": {"max_detour_ratio": 0.25}}
+{"policy_id": "eval-024-3", "family": "distractor-idle-detour", "language": "en", "text": "Vehicles should avoid unnecessary idling; cap additional onboard time to 30 percent of a direct ride.", "gold": {"max_detour_ratio": 0.3}}
+{"policy_id": "eval-024-4", "family": "distractor-idle-detour", "language": "en", "text": "Vehicles should avoid unnecessary idling; cap additional onboard time to 40 percent of a direct ride.", "gold": {"max_detour_ratio": 0.4}}
+{"policy_id": "eval-024-5", "family": "distractor-idle-detour", "language": "en", "text": "Vehicles should avoid unnecessary idling; cap additional onboard time to 50 percent of a direct ride.", "gold": {"max_detour_ratio": 0.5}}

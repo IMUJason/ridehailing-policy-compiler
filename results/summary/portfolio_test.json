@@ -1,0 +1,117 @@
+{
+  "best": "eval-007-1",
+  "ranking": [
+    "eval-007-1",
+    "eval-011-1",
+    "eval-004-1",
+    "eval-016-1",
+    "eval-001-1",
+    "eval-017-1",
+    "eval-009-1",
+    "eval-013-1",
+    "eval-020-1",
+    "eval-015-1"
+  ],
+  "summary": {
+    "eval-001-1": {
+      "score": 109869.0,
+      "requests": 49,
+      "response_rate": 0.7755102040816326,
+      "pooling_rate_served": 0.631578947368421,
+      "wait_mean_s": 25.105263157894736,
+      "detour_mean_s": 143.81578947368422,
+      "vehicle_hours": 20.28611111111111,
+      "empty_travel_hours": 6.736111111111111
+    },
+    "eval-004-1": {
+      "score": 99913.0,
+      "requests": 49,
+      "response_rate": 0.8367346938775511,
+      "pooling_rate_served": 0.5365853658536586,
+      "wait_mean_s": 287.4390243902439,
+      "detour_mean_s": 46.073170731707314,
+      "vehicle_hours": 20.71277777777778,
+      "empty_travel_hours": 7.955277777777778
+    },
+    "eval-007-1": {
+      "score": 95094.0,
+      "requests": 49,
+      "response_rate": 0.8571428571428571,
+      "pooling_rate_served": 0.6666666666666666,
+      "wait_mean_s": 288.4761904761905,
+      "detour_mean_s": 140.66666666666666,
+      "vehicle_hours": 21.15416666666667,
+      "empty_travel_hours": 7.408333333333333
+    },
+    "eval-009-1": {
+      "score": 112539.0,
+      "requests": 49,
+      "response_rate": 0.7959183673469388,
+      "pooling_rate_served": 0.6153846153846154,
+      "wait_mean_s": 271.46153846153845,
+      "detour_mean_s": 130.53846153846155,
+      "vehicle_hours": 19.50611111111111,
+      "empty_travel_hours": 6.905833333333334
+    },
+    "eval-011-1": {
+      "score": 95094.0,
+      "requests": 49,
+      "response_rate": 0.8571428571428571,
+      "pooling_rate_served": 0.6666666666666666,
+      "wait_mean_s": 288.4761904761905,
+      "detour_mean_s": 140.66666666666666,
+      "vehicle_hours": 21.15416666666667,
+      "empty_travel_hours": 7.408333333333333
+    },
+    "eval-013-1": {
+      "score": 126707.0,
+      "requests": 49,
+      "response_rate": 0.7142857142857143,
+      "pooling_rate_served": 0.45714285714285713,
+      "wait_mean_s": 46.2,
+      "detour_mean_s": 28.771428571428572,
+      "vehicle_hours": 18.6325,
+      "empty_travel_hours": 6.4675
+    },
+    "eval-015-1": {
+      "score": 138260.0,
+      "requests": 49,
+      "response_rate": 0.673469387755102,
+      "pooling_rate_served": 0.48484848484848486,
+      "wait_mean_s": 37.90909090909091,
+      "detour_mean_s": 39.36363636363637,
+      "vehicle_hours": 16.739166666666666,
+      "empty_travel_hours": 5.697222222222223
+    },
+    "eval-016-1": {
+      "score": 99913.0,
+      "requests": 49,
+      "response_rate": 0.8367346938775511,
+      "pooling_rate_served": 0.5365853658536586,
+      "wait_mean_s": 287.4390243902439,
+      "detour_mean_s": 46.073170731707314,
+      "vehicle_hours": 20.71277777777778,
+      "empty_travel_hours": 7.955277777777778
+    },
+    "eval-017-1": {
+      "score": 109869.0,
+      "requests": 49,
+      "response_rate": 0.7755102040816326,
+      "pooling_rate_served": 0.631578947368421,
+      "wait_mean_s": 25.105263157894736,
+      "detour_mean_s": 143.81578947368422,
+      "vehicle_hours": 20.28611111111111,
+      "empty_travel_hours": 6.736111111111111
+    },
+    "eval-020-1": {
+      "score": 131249.0,
+      "requests": 49,
+      "response_rate": 0.7142857142857143,
+      "pooling_rate_served": 0.6285714285714286,
+      "wait_mean_s": 38.57142857142857,
+      "detour_mean_s": 160.8,
+      "vehicle_hours": 19.49888888888889,
+      "empty_travel_hours": 6.519722222222223
+    }
+  }
+}

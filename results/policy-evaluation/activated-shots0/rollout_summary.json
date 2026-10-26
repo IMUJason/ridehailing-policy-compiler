@@ -1,0 +1,7 @@
+{
+  "records": 20,
+  "exact": 19,
+  "rollout_best_match": 19,
+  "simulation_failures": 0,
+  "median_decision_regret": 0.0
+}

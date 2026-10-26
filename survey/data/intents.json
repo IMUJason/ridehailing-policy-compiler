@@ -1,0 +1,62 @@
+[
+  {
+    "intent_id": "paraphrase-01",
+    "prompt": "要求接驾等待不超过 8 分钟。",
+    "slot": "wait"
+  },
+  {
+    "intent_id": "paraphrase-02",
+    "prompt": "要求每辆车同时最多服务 2 组乘客。",
+    "slot": "parties"
+  },
+  {
+    "intent_id": "paraphrase-03",
+    "prompt": "要求额外乘坐时间不超过直达行程的 30%。",
+    "slot": "detour"
+  },
+  {
+    "intent_id": "paraphrase-04",
+    "prompt": "要求本时段投入 8 辆车。",
+    "slot": "fleet"
+  },
+  {
+    "intent_id": "paraphrase-05",
+    "prompt": "要求未服务订单按 1 小时延误计惩罚。",
+    "slot": "penalty"
+  },
+  {
+    "intent_id": "paraphrase-06",
+    "prompt": "要求接驾等待 10 分钟、每车最多 2 组乘客，并要求绕行不超过 40%。",
+    "slot": "combo"
+  },
+  {
+    "intent_id": "paraphrase-07",
+    "prompt": "要求接驾等待不超过 5 分钟，并把投入车辆提高到 10 辆。",
+    "slot": "combo"
+  },
+  {
+    "intent_id": "paraphrase-08",
+    "prompt": "要求额外乘坐时间不超过 25%，未服务订单按 90 分钟计惩罚。",
+    "slot": "combo"
+  },
+  {
+    "intent_id": "paraphrase-09",
+    "prompt": "要求本时段投入 6 辆车，接驾等待不超过 12 分钟。",
+    "slot": "combo"
+  },
+  {
+    "intent_id": "paraphrase-10",
+    "prompt": "要求每车最多 3 组乘客，接驾等待不超过 8 分钟。",
+    "slot": "combo"
+  },
+  {
+    "intent_id": "paraphrase-11",
+    "prompt": "要求绕行不超过 20%，每车最多 2 组乘客。",
+    "slot": "combo"
+  },
+  {
+    "intent_id": "paraphrase-12",
+    "prompt": "要求投入 12 辆车，绕行不超过 35%。",
+    "slot": "combo"
+  }
+]

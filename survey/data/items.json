@@ -1,0 +1,1515 @@
+[
+  {
+    "item_id": "correct-eval-001-1",
+    "policy_id": "eval-001-1",
+    "family": "wait-minutes",
+    "language": "en",
+    "text": "Do not keep passengers waiting more than 5 minutes for pickup.",
+    "config": {
+      "max_wait_s": 300
+    },
+    "config_lines": [
+      "接驾等待上限：300 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-001-2",
+    "policy_id": "eval-001-2",
+    "family": "wait-minutes",
+    "language": "en",
+    "text": "Do not keep passengers waiting more than 8 minutes for pickup.",
+    "config": {
+      "max_wait_s": 480
+    },
+    "config_lines": [
+      "接驾等待上限：480 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-001-3",
+    "policy_id": "eval-001-3",
+    "family": "wait-minutes",
+    "language": "en",
+    "text": "Do not keep passengers waiting more than 10 minutes for pickup.",
+    "config": {
+      "max_wait_s": 600
+    },
+    "config_lines": [
+      "接驾等待上限：600 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-001-4",
+    "policy_id": "eval-001-4",
+    "family": "wait-minutes",
+    "language": "en",
+    "text": "Do not keep passengers waiting more than 12 minutes for pickup.",
+    "config": {
+      "max_wait_s": 720
+    },
+    "config_lines": [
+      "接驾等待上限：720 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-001-5",
+    "policy_id": "eval-001-5",
+    "family": "wait-minutes",
+    "language": "en",
+    "text": "Do not keep passengers waiting more than 15 minutes for pickup.",
+    "config": {
+      "max_wait_s": 900
+    },
+    "config_lines": [
+      "接驾等待上限：900 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-002-1",
+    "policy_id": "eval-002-1",
+    "family": "wait-seconds",
+    "language": "en",
+    "text": "Set the maximum pickup wait to 300 seconds.",
+    "config": {
+      "max_wait_s": 300
+    },
+    "config_lines": [
+      "接驾等待上限：300 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-002-2",
+    "policy_id": "eval-002-2",
+    "family": "wait-seconds",
+    "language": "en",
+    "text": "Set the maximum pickup wait to 480 seconds.",
+    "config": {
+      "max_wait_s": 480
+    },
+    "config_lines": [
+      "接驾等待上限：480 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-002-3",
+    "policy_id": "eval-002-3",
+    "family": "wait-seconds",
+    "language": "en",
+    "text": "Set the maximum pickup wait to 600 seconds.",
+    "config": {
+      "max_wait_s": 600
+    },
+    "config_lines": [
+      "接驾等待上限：600 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-002-4",
+    "policy_id": "eval-002-4",
+    "family": "wait-seconds",
+    "language": "en",
+    "text": "Set the maximum pickup wait to 720 seconds.",
+    "config": {
+      "max_wait_s": 720
+    },
+    "config_lines": [
+      "接驾等待上限：720 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-002-5",
+    "policy_id": "eval-002-5",
+    "family": "wait-seconds",
+    "language": "en",
+    "text": "Set the maximum pickup wait to 900 seconds.",
+    "config": {
+      "max_wait_s": 900
+    },
+    "config_lines": [
+      "接驾等待上限：900 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-003-1",
+    "policy_id": "eval-003-1",
+    "family": "wait-paraphrase",
+    "language": "en",
+    "text": "Passengers should not wait longer than 5 minutes before being picked up.",
+    "config": {
+      "max_wait_s": 300
+    },
+    "config_lines": [
+      "接驾等待上限：300 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-003-2",
+    "policy_id": "eval-003-2",
+    "family": "wait-paraphrase",
+    "language": "en",
+    "text": "Passengers should not wait longer than 8 minutes before being picked up.",
+    "config": {
+      "max_wait_s": 480
+    },
+    "config_lines": [
+      "接驾等待上限：480 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-003-3",
+    "policy_id": "eval-003-3",
+    "family": "wait-paraphrase",
+    "language": "en",
+    "text": "Passengers should not wait longer than 10 minutes before being picked up.",
+    "config": {
+      "max_wait_s": 600
+    },
+    "config_lines": [
+      "接驾等待上限：600 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-003-4",
+    "policy_id": "eval-003-4",
+    "family": "wait-paraphrase",
+    "language": "en",
+    "text": "Passengers should not wait longer than 12 minutes before being picked up.",
+    "config": {
+      "max_wait_s": 720
+    },
+    "config_lines": [
+      "接驾等待上限：720 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-003-5",
+    "policy_id": "eval-003-5",
+    "family": "wait-paraphrase",
+    "language": "en",
+    "text": "Passengers should not wait longer than 15 minutes before being picked up.",
+    "config": {
+      "max_wait_s": 900
+    },
+    "config_lines": [
+      "接驾等待上限：900 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-004-1",
+    "policy_id": "eval-004-1",
+    "family": "detour-percent",
+    "language": "en",
+    "text": "Additional onboard time may not exceed 20 percent of the direct ride.",
+    "config": {
+      "max_detour_ratio": 0.2
+    },
+    "config_lines": [
+      "额外乘坐比例：0.20（即 20%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-004-2",
+    "policy_id": "eval-004-2",
+    "family": "detour-percent",
+    "language": "en",
+    "text": "Additional onboard time may not exceed 25 percent of the direct ride.",
+    "config": {
+      "max_detour_ratio": 0.25
+    },
+    "config_lines": [
+      "额外乘坐比例：0.25（即 25%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-004-3",
+    "policy_id": "eval-004-3",
+    "family": "detour-percent",
+    "language": "en",
+    "text": "Additional onboard time may not exceed 30 percent of the direct ride.",
+    "config": {
+      "max_detour_ratio": 0.3
+    },
+    "config_lines": [
+      "额外乘坐比例：0.30（即 30%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-004-4",
+    "policy_id": "eval-004-4",
+    "family": "detour-percent",
+    "language": "en",
+    "text": "Additional onboard time may not exceed 40 percent of the direct ride.",
+    "config": {
+      "max_detour_ratio": 0.4
+    },
+    "config_lines": [
+      "额外乘坐比例：0.40（即 40%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-004-5",
+    "policy_id": "eval-004-5",
+    "family": "detour-percent",
+    "language": "en",
+    "text": "Additional onboard time may not exceed 50 percent of the direct ride.",
+    "config": {
+      "max_detour_ratio": 0.5
+    },
+    "config_lines": [
+      "额外乘坐比例：0.50（即 50%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-005-1",
+    "policy_id": "eval-005-1",
+    "family": "detour-fraction",
+    "language": "en",
+    "text": "Cap the onboard detour at 0.2 of direct travel time.",
+    "config": {
+      "max_detour_ratio": 0.2
+    },
+    "config_lines": [
+      "额外乘坐比例：0.20（即 20%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-005-2",
+    "policy_id": "eval-005-2",
+    "family": "detour-fraction",
+    "language": "en",
+    "text": "Cap the onboard detour at 0.25 of direct travel time.",
+    "config": {
+      "max_detour_ratio": 0.25
+    },
+    "config_lines": [
+      "额外乘坐比例：0.25（即 25%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-005-3",
+    "policy_id": "eval-005-3",
+    "family": "detour-fraction",
+    "language": "en",
+    "text": "Cap the onboard detour at 0.3 of direct travel time.",
+    "config": {
+      "max_detour_ratio": 0.3
+    },
+    "config_lines": [
+      "额外乘坐比例：0.30（即 30%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-005-4",
+    "policy_id": "eval-005-4",
+    "family": "detour-fraction",
+    "language": "en",
+    "text": "Cap the onboard detour at 0.4 of direct travel time.",
+    "config": {
+      "max_detour_ratio": 0.4
+    },
+    "config_lines": [
+      "额外乘坐比例：0.40（即 40%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-005-5",
+    "policy_id": "eval-005-5",
+    "family": "detour-fraction",
+    "language": "en",
+    "text": "Cap the onboard detour at 0.5 of direct travel time.",
+    "config": {
+      "max_detour_ratio": 0.5
+    },
+    "config_lines": [
+      "额外乘坐比例：0.50（即 50%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-006-1",
+    "policy_id": "eval-006-1",
+    "family": "detour-delay",
+    "language": "en",
+    "text": "A shared passenger's extra time in the vehicle is limited to 20 percent of a direct trip.",
+    "config": {
+      "max_detour_ratio": 0.2
+    },
+    "config_lines": [
+      "额外乘坐比例：0.20（即 20%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-006-3",
+    "policy_id": "eval-006-3",
+    "family": "detour-delay",
+    "language": "en",
+    "text": "A shared passenger's extra time in the vehicle is limited to 30 percent of a direct trip.",
+    "config": {
+      "max_detour_ratio": 0.3
+    },
+    "config_lines": [
+      "额外乘坐比例：0.30（即 30%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-006-4",
+    "policy_id": "eval-006-4",
+    "family": "detour-delay",
+    "language": "en",
+    "text": "A shared passenger's extra time in the vehicle is limited to 40 percent of a direct trip.",
+    "config": {
+      "max_detour_ratio": 0.4
+    },
+    "config_lines": [
+      "额外乘坐比例：0.40（即 40%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-006-5",
+    "policy_id": "eval-006-5",
+    "family": "detour-delay",
+    "language": "en",
+    "text": "A shared passenger's extra time in the vehicle is limited to 50 percent of a direct trip.",
+    "config": {
+      "max_detour_ratio": 0.5
+    },
+    "config_lines": [
+      "额外乘坐比例：0.50（即 50%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "correct-eval-007-1",
+    "policy_id": "eval-007-1",
+    "family": "parties-groups",
+    "language": "en",
+    "text": "No vehicle may carry more than 2 passenger groups at once.",
+    "config": {
+      "max_parties": 2
+    },
+    "config_lines": [
+      "同车最多乘客组数：2 组",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": true,
+    "error_fields": [],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-020-5",
+    "policy_id": "eval-020-5",
+    "family": "zh-fleet-wait",
+    "language": "zh",
+    "text": "本时段投入15辆车，接驾等待上限为15分钟。",
+    "config": {
+      "unserved_penalty_s": 900,
+      "max_wait_s": 900
+    },
+    "config_lines": [
+      "未服务惩罚：900 秒",
+      "接驾等待上限：900 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "fleet_size",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "unserved_penalty_s": {
+          "predicted": 900,
+          "source_candidates": [
+            15
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-021-5",
+    "policy_id": "eval-021-5",
+    "family": "no-change-en",
+    "language": "en",
+    "text": "Keep the current pooling policy unchanged.",
+    "config": {
+      "unserved_penalty_s": 300,
+      "max_wait_s": 180
+    },
+    "config_lines": [
+      "未服务惩罚：300 秒",
+      "接驾等待上限：180 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_wait_s",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-023-5",
+    "policy_id": "eval-023-5",
+    "family": "distractor-fleet-wait",
+    "language": "en",
+    "text": "Fleet utilization should be monitored, but the only policy change is a 15-minute pickup wait cap.",
+    "config": {
+      "unserved_penalty_s": 0,
+      "max_wait_s": 900
+    },
+    "config_lines": [
+      "未服务惩罚：0 秒",
+      "接驾等待上限：900 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "unserved_penalty_s": {
+          "predicted": 0,
+          "source_candidates": [
+            15
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-020-1",
+    "policy_id": "eval-020-1",
+    "family": "zh-fleet-wait",
+    "language": "zh",
+    "text": "本时段投入6辆车，接驾等待上限为5分钟。",
+    "config": {
+      "unserved_penalty_s": 0,
+      "max_wait_s": 300
+    },
+    "config_lines": [
+      "未服务惩罚：0 秒",
+      "接驾等待上限：300 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "fleet_size",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "unserved_penalty_s": {
+          "predicted": 0,
+          "source_candidates": [
+            5,
+            6
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-022-1",
+    "policy_id": "eval-022-1",
+    "family": "no-change-zh",
+    "language": "zh",
+    "text": "保持当前拼车策略不变。",
+    "config": {
+      "unserved_penalty_s": 300,
+      "max_wait_s": 180
+    },
+    "config_lines": [
+      "未服务惩罚：300 秒",
+      "接驾等待上限：180 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_wait_s",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-024-4",
+    "policy_id": "eval-024-4",
+    "family": "distractor-idle-detour",
+    "language": "en",
+    "text": "Vehicles should avoid unnecessary idling; cap additional onboard time to 40 percent of a direct ride.",
+    "config": {
+      "max_wait_s": 120,
+      "max_detour_ratio": 0.4
+    },
+    "config_lines": [
+      "接驾等待上限：120 秒",
+      "额外乘坐比例：0.40（即 40%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_wait_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "max_wait_s": {
+          "predicted": 120,
+          "source_candidates": [
+            40
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-009-1",
+    "policy_id": "eval-009-1",
+    "family": "fleet-deploy",
+    "language": "en",
+    "text": "Deploy 6 vehicles for this operating window.",
+    "config": {
+      "unserved_penalty_s": 300,
+      "max_wait_s": 180
+    },
+    "config_lines": [
+      "未服务惩罚：300 秒",
+      "接驾等待上限：180 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "fleet_size",
+      "max_wait_s",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "unserved_penalty_s": {
+          "predicted": 300,
+          "source_candidates": [
+            6
+          ]
+        },
+        "max_wait_s": {
+          "predicted": 180,
+          "source_candidates": [
+            6
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-023-2",
+    "policy_id": "eval-023-2",
+    "family": "distractor-fleet-wait",
+    "language": "en",
+    "text": "Fleet utilization should be monitored, but the only policy change is a 8-minute pickup wait cap.",
+    "config": {
+      "fleet_size": 20,
+      "unserved_penalty_s": 3600,
+      "max_wait_s": 480
+    },
+    "config_lines": [
+      "投入车辆数：20 辆",
+      "未服务惩罚：3600 秒",
+      "接驾等待上限：480 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "fleet_size",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "fleet_size": {
+          "predicted": 20,
+          "source_candidates": [
+            8
+          ]
+        },
+        "unserved_penalty_s": {
+          "predicted": 3600,
+          "source_candidates": [
+            8
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-023-1",
+    "policy_id": "eval-023-1",
+    "family": "distractor-fleet-wait",
+    "language": "en",
+    "text": "Fleet utilization should be monitored, but the only policy change is a 5-minute pickup wait cap.",
+    "config": {
+      "fleet_size": 10,
+      "unserved_penalty_s": 1800,
+      "max_wait_s": 300
+    },
+    "config_lines": [
+      "投入车辆数：10 辆",
+      "未服务惩罚：1800 秒",
+      "接驾等待上限：300 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "fleet_size",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "fleet_size": {
+          "predicted": 10,
+          "source_candidates": [
+            5
+          ]
+        },
+        "unserved_penalty_s": {
+          "predicted": 1800,
+          "source_candidates": [
+            5
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-018-4",
+    "policy_id": "eval-018-4",
+    "family": "zh-detour",
+    "language": "zh",
+    "text": "拼车额外乘坐时间不得超过直达时间的40%。",
+    "config": {
+      "max_wait_s": 144,
+      "max_detour_ratio": 0.4
+    },
+    "config_lines": [
+      "接驾等待上限：144 秒",
+      "额外乘坐比例：0.40（即 40%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_wait_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "max_wait_s": {
+          "predicted": 144,
+          "source_candidates": [
+            40
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-024-5",
+    "policy_id": "eval-024-5",
+    "family": "distractor-idle-detour",
+    "language": "en",
+    "text": "Vehicles should avoid unnecessary idling; cap additional onboard time to 50 percent of a direct ride.",
+    "config": {
+      "max_wait_s": 180,
+      "max_detour_ratio": 0.5
+    },
+    "config_lines": [
+      "接驾等待上限：180 秒",
+      "额外乘坐比例：0.50（即 50%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_wait_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "max_wait_s": {
+          "predicted": 180,
+          "source_candidates": [
+            50
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-unit-eval-006-2",
+    "policy_id": "eval-006-2",
+    "family": "detour-delay",
+    "language": "en",
+    "text": "A shared passenger's extra time in the vehicle is limited to 25 percent of a direct trip.",
+    "config": {
+      "max_detour_ratio": 0.0025
+    },
+    "config_lines": [
+      "额外乘坐比例：0.00（即 0%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_detour_ratio"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "max_detour_ratio": {
+          "predicted": 0.0025,
+          "source_candidates": [
+            0.25
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-021-1",
+    "policy_id": "eval-021-1",
+    "family": "no-change-en",
+    "language": "en",
+    "text": "Keep the current pooling policy unchanged.",
+    "config": {
+      "unserved_penalty_s": 300,
+      "max_wait_s": 180
+    },
+    "config_lines": [
+      "未服务惩罚：300 秒",
+      "接驾等待上限：180 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_wait_s",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-024-2",
+    "policy_id": "eval-024-2",
+    "family": "distractor-idle-detour",
+    "language": "en",
+    "text": "Vehicles should avoid unnecessary idling; cap additional onboard time to 25 percent of a direct ride.",
+    "config": {
+      "max_wait_s": 180,
+      "max_detour_ratio": 0.25
+    },
+    "config_lines": [
+      "接驾等待上限：180 秒",
+      "额外乘坐比例：0.25（即 25%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_wait_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "max_wait_s": {
+          "predicted": 180,
+          "source_candidates": [
+            25
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-unit-eval-013-2",
+    "policy_id": "eval-013-2",
+    "family": "combo-wait-detour",
+    "language": "en",
+    "text": "Cap pickup wait at 8 minutes and additional onboard time at 25 percent.",
+    "config": {
+      "max_detour_ratio": 0.0025,
+      "max_wait_s": 480
+    },
+    "config_lines": [
+      "额外乘坐比例：0.00（即 0%）",
+      "接驾等待上限：480 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_detour_ratio"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "max_detour_ratio": {
+          "predicted": 0.0025,
+          "source_candidates": [
+            0.08,
+            0.25
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-022-3",
+    "policy_id": "eval-022-3",
+    "family": "no-change-zh",
+    "language": "zh",
+    "text": "保持当前拼车策略不变。",
+    "config": {
+      "unserved_penalty_s": 300,
+      "max_wait_s": 180
+    },
+    "config_lines": [
+      "未服务惩罚：300 秒",
+      "接驾等待上限：180 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_wait_s",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-021-2",
+    "policy_id": "eval-021-2",
+    "family": "no-change-en",
+    "language": "en",
+    "text": "Keep the current pooling policy unchanged.",
+    "config": {
+      "unserved_penalty_s": 300,
+      "max_wait_s": 180
+    },
+    "config_lines": [
+      "未服务惩罚：300 秒",
+      "接驾等待上限：180 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_wait_s",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-021-3",
+    "policy_id": "eval-021-3",
+    "family": "no-change-en",
+    "language": "en",
+    "text": "Keep the current pooling policy unchanged.",
+    "config": {
+      "unserved_penalty_s": 300,
+      "max_wait_s": 180
+    },
+    "config_lines": [
+      "未服务惩罚：300 秒",
+      "接驾等待上限：180 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_wait_s",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-022-5",
+    "policy_id": "eval-022-5",
+    "family": "no-change-zh",
+    "language": "zh",
+    "text": "保持当前拼车策略不变。",
+    "config": {
+      "unserved_penalty_s": 300,
+      "max_wait_s": 180
+    },
+    "config_lines": [
+      "未服务惩罚：300 秒",
+      "接驾等待上限：180 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_wait_s",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-024-1",
+    "policy_id": "eval-024-1",
+    "family": "distractor-idle-detour",
+    "language": "en",
+    "text": "Vehicles should avoid unnecessary idling; cap additional onboard time to 20 percent of a direct ride.",
+    "config": {
+      "max_wait_s": 120,
+      "max_detour_ratio": 0.2
+    },
+    "config_lines": [
+      "接驾等待上限：120 秒",
+      "额外乘坐比例：0.20（即 20%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_wait_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "max_wait_s": {
+          "predicted": 120,
+          "source_candidates": [
+            20
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-activated-eval-013-4",
+    "policy_id": "eval-013-4",
+    "family": "combo-wait-detour",
+    "language": "en",
+    "text": "Cap pickup wait at 12 minutes and additional onboard time at 40 percent.",
+    "config": {
+      "max_wait_s": 720,
+      "max_detour_ratio": 1.4
+    },
+    "config_lines": [
+      "接驾等待上限：720 秒",
+      "额外乘坐比例：1.40（即 140%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_detour_ratio"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "max_detour_ratio": {
+          "predicted": 1.4,
+          "source_candidates": [
+            0.12,
+            0.4
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-009-2",
+    "policy_id": "eval-009-2",
+    "family": "fleet-deploy",
+    "language": "en",
+    "text": "Deploy 8 vehicles for this operating window.",
+    "config": {
+      "unserved_penalty_s": 300,
+      "max_wait_s": 180
+    },
+    "config_lines": [
+      "未服务惩罚：300 秒",
+      "接驾等待上限：180 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "fleet_size",
+      "max_wait_s",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "unserved_penalty_s": {
+          "predicted": 300,
+          "source_candidates": [
+            8
+          ]
+        },
+        "max_wait_s": {
+          "predicted": 180,
+          "source_candidates": [
+            8
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-022-4",
+    "policy_id": "eval-022-4",
+    "family": "no-change-zh",
+    "language": "zh",
+    "text": "保持当前拼车策略不变。",
+    "config": {
+      "unserved_penalty_s": 300,
+      "max_wait_s": 180
+    },
+    "config_lines": [
+      "未服务惩罚：300 秒",
+      "接驾等待上限：180 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_wait_s",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-021-4",
+    "policy_id": "eval-021-4",
+    "family": "no-change-en",
+    "language": "en",
+    "text": "Keep the current pooling policy unchanged.",
+    "config": {
+      "unserved_penalty_s": 300,
+      "max_wait_s": 180
+    },
+    "config_lines": [
+      "未服务惩罚：300 秒",
+      "接驾等待上限：180 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_wait_s",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-022-2",
+    "policy_id": "eval-022-2",
+    "family": "no-change-zh",
+    "language": "zh",
+    "text": "保持当前拼车策略不变。",
+    "config": {
+      "unserved_penalty_s": 300,
+      "max_wait_s": 180
+    },
+    "config_lines": [
+      "未服务惩罚：300 秒",
+      "接驾等待上限：180 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_wait_s",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": true,
+      "rejected_fields": {}
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-015-5",
+    "policy_id": "eval-015-5",
+    "family": "combo-fleet-wait-detour",
+    "language": "en",
+    "text": "Put 15 vehicles into service, cap pickup wait at 15 minutes, and keep detours below 50 percent.",
+    "config": {
+      "unserved_penalty_s": 900,
+      "max_wait_s": 900
+    },
+    "config_lines": [
+      "未服务惩罚：900 秒",
+      "接驾等待上限：900 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "fleet_size",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "unserved_penalty_s": {
+          "predicted": 900,
+          "source_candidates": [
+            15,
+            50
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-023-3",
+    "policy_id": "eval-023-3",
+    "family": "distractor-fleet-wait",
+    "language": "en",
+    "text": "Fleet utilization should be monitored, but the only policy change is a 10-minute pickup wait cap.",
+    "config": {
+      "unserved_penalty_s": 0,
+      "max_wait_s": 600
+    },
+    "config_lines": [
+      "未服务惩罚：0 秒",
+      "接驾等待上限：600 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "unserved_penalty_s": {
+          "predicted": 0,
+          "source_candidates": [
+            10
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-020-4",
+    "policy_id": "eval-020-4",
+    "family": "zh-fleet-wait",
+    "language": "zh",
+    "text": "本时段投入12辆车，接驾等待上限为12分钟。",
+    "config": {
+      "unserved_penalty_s": 0,
+      "max_wait_s": 720
+    },
+    "config_lines": [
+      "未服务惩罚：0 秒",
+      "接驾等待上限：720 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "fleet_size",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "unserved_penalty_s": {
+          "predicted": 0,
+          "source_candidates": [
+            12
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-024-3",
+    "policy_id": "eval-024-3",
+    "family": "distractor-idle-detour",
+    "language": "en",
+    "text": "Vehicles should avoid unnecessary idling; cap additional onboard time to 30 percent of a direct ride.",
+    "config": {
+      "max_wait_s": 1800,
+      "max_detour_ratio": 0.3
+    },
+    "config_lines": [
+      "接驾等待上限：1800 秒",
+      "额外乘坐比例：0.30（即 30%）",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "max_wait_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "max_wait_s": {
+          "predicted": 1800,
+          "source_candidates": [
+            30
+          ]
+        }
+      }
+    }
+  },
+  {
+    "item_id": "wrong-static-eval-015-4",
+    "policy_id": "eval-015-4",
+    "family": "combo-fleet-wait-detour",
+    "language": "en",
+    "text": "Put 12 vehicles into service, cap pickup wait at 12 minutes, and keep detours below 40 percent.",
+    "config": {
+      "unserved_penalty_s": 720,
+      "max_wait_s": 720
+    },
+    "config_lines": [
+      "未服务惩罚：720 秒",
+      "接驾等待上限：720 秒",
+      "未列出的参数沿用当前值。"
+    ],
+    "correct": false,
+    "error_fields": [
+      "fleet_size",
+      "max_detour_ratio",
+      "unserved_penalty_s"
+    ],
+    "guard": {
+      "accepted": false,
+      "rejected_fields": {
+        "unserved_penalty_s": {
+          "predicted": 720,
+          "source_candidates": [
+            12,
+            40
+          ]
+        }
+      }
+    }
+  }
+]

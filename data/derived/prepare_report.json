@@ -1,0 +1,22 @@
+{
+  "clean_hvfh_v_trips": 19581742,
+  "scenarios": 144,
+  "dev_scenarios": 72,
+  "test_scenarios": 72,
+  "requests": 3086,
+  "requests_per_scenario": {
+    "count": 144.0,
+    "mean": 21.43,
+    "std": 6.52,
+    "min": 8.0,
+    "25%": 16.0,
+    "50%": 21.0,
+    "75%": 28.0,
+    "max": 30.0
+  },
+  "observed_match_rate": 0.6662,
+  "fallback_seconds": 452.026,
+  "fallback_seconds_per_km": 114.801,
+  "fit_pairs": 35881,
+  "travel_rows": 360177
+}

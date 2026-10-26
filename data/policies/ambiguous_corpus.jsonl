@@ -1,0 +1,20 @@
+{"policy_id":"amb-001","family":"wait-choice","language":"en","text":"Use a 10-minute pickup wait cap, not the 15-minute value discussed earlier.","gold":{"max_wait_s":600},"alternatives":{"max_wait_s":[900]}}
+{"policy_id":"amb-002","family":"fleet-choice","language":"en","text":"Deploy 8 vehicles for the peak, not the 6 vehicles in the earlier draft.","gold":{"fleet_size":8},"alternatives":{"fleet_size":[6]}}
+{"policy_id":"amb-003","family":"detour-choice","language":"en","text":"Keep the detour allowance at 30 percent rather than 40 percent.","gold":{"max_detour_ratio":0.3},"alternatives":{"max_detour_ratio":[0.4]}}
+{"policy_id":"amb-004","family":"penalty-choice","language":"en","text":"Charge 2 hours of delay for an unserved request, not 3 hours.","gold":{"unserved_penalty_s":7200},"alternatives":{"unserved_penalty_s":[10800]}}
+{"policy_id":"amb-005","family":"parties-choice","language":"en","text":"Allow two passenger parties per vehicle, not three groups.","gold":{"max_parties":2},"alternatives":{"max_parties":[3]}}
+{"policy_id":"amb-006","family":"combo-choice","language":"en","text":"Cap pickup wait at 10 minutes rather than 12, and keep detour at 30 percent rather than 40.","gold":{"max_wait_s":600,"max_detour_ratio":0.3},"alternatives":{"max_wait_s":[720],"max_detour_ratio":[0.4]}}
+{"policy_id":"amb-007","family":"combo-choice","language":"en","text":"Use 8 vehicles instead of 10, with pickup waiting limited to 8 minutes rather than 12.","gold":{"fleet_size":8,"max_wait_s":480},"alternatives":{"fleet_size":[10],"max_wait_s":[720]}}
+{"policy_id":"amb-008","family":"wait-choice","language":"en","text":"For pickup waiting, the approved value is 12 minutes; 15 minutes was rejected.","gold":{"max_wait_s":720},"alternatives":{"max_wait_s":[900]}}
+{"policy_id":"amb-009","family":"detour-choice","language":"en","text":"Additional onboard time is capped at 25 percent, not the 50 percent in the old policy.","gold":{"max_detour_ratio":0.25},"alternatives":{"max_detour_ratio":[0.5]}}
+{"policy_id":"amb-010","family":"penalty-choice","language":"en","text":"An unmet request carries a 90-minute penalty, although 120 minutes was proposed.","gold":{"unserved_penalty_s":5400},"alternatives":{"unserved_penalty_s":[7200]}}
+{"policy_id":"amb-011","family":"wait-choice","language":"zh","text":"接驾等待上限采用10分钟，不是之前讨论的15分钟。","gold":{"max_wait_s":600},"alternatives":{"max_wait_s":[900]}}
+{"policy_id":"amb-012","family":"fleet-choice","language":"zh","text":"高峰投入8辆车，不采用草案里的6辆车。","gold":{"fleet_size":8},"alternatives":{"fleet_size":[6]}}
+{"policy_id":"amb-013","family":"detour-choice","language":"zh","text":"绕行上限保持30%，而不是40%。","gold":{"max_detour_ratio":0.3},"alternatives":{"max_detour_ratio":[0.4]}}
+{"policy_id":"amb-014","family":"penalty-choice","language":"zh","text":"未服务订单按2小时延误计，不按3小时。","gold":{"unserved_penalty_s":7200},"alternatives":{"unserved_penalty_s":[10800]}}
+{"policy_id":"amb-015","family":"parties-choice","language":"zh","text":"每辆车允许两组乘客，不是三组。","gold":{"max_parties":2},"alternatives":{"max_parties":[3]}}
+{"policy_id":"amb-016","family":"combo-choice","language":"zh","text":"接驾等待采用10分钟而不是12分钟，绕行采用30%而不是40%。","gold":{"max_wait_s":600,"max_detour_ratio":0.3},"alternatives":{"max_wait_s":[720],"max_detour_ratio":[0.4]}}
+{"policy_id":"amb-017","family":"combo-choice","language":"zh","text":"投入8辆车而不是10辆，接驾等待限制为8分钟而不是12分钟。","gold":{"fleet_size":8,"max_wait_s":480},"alternatives":{"fleet_size":[10],"max_wait_s":[720]}}
+{"policy_id":"amb-018","family":"wait-choice","language":"zh","text":"接驾等待取12分钟这个方案，15分钟方案不采用。","gold":{"max_wait_s":720},"alternatives":{"max_wait_s":[900]}}
+{"policy_id":"amb-019","family":"detour-choice","language":"zh","text":"额外乘坐时间上限为25%，不是旧策略的50%。","gold":{"max_detour_ratio":0.25},"alternatives":{"max_detour_ratio":[0.5]}}
+{"policy_id":"amb-020","family":"penalty-choice","language":"zh","text":"未完成订单按90分钟惩罚，虽然提出过120分钟。","gold":{"unserved_penalty_s":5400},"alternatives":{"unserved_penalty_s":[7200]}}

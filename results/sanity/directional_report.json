@@ -1,0 +1,32 @@
+{
+  "valid_records": 72,
+  "total_records": 72,
+  "complete_scenarios": 12,
+  "directional": {
+    "wait_lower": {
+      "passed": 12,
+      "total": 12,
+      "share": 1.0
+    },
+    "detour_lower": {
+      "passed": 12,
+      "total": 12,
+      "share": 1.0
+    },
+    "capacity_pooling_up": {
+      "passed": 8,
+      "total": 12,
+      "share": 0.6666666666666666
+    },
+    "fleet_response_up": {
+      "passed": 12,
+      "total": 12,
+      "share": 1.0
+    },
+    "low_penalty_unserved_up": {
+      "passed": 12,
+      "total": 12,
+      "share": 1.0
+    }
+  }
+}
