@@ -1,0 +1,174 @@
+{
+  "activation_corpus": {
+    "tp": 140,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "no_change_items": 10,
+    "false_activations_on_no_change": 0
+  },
+  "activation_human": {
+    "tp": 240,
+    "fp": 7,
+    "fn": 57,
+    "precision": 0.97165991902834,
+    "recall": 0.8080808080808081,
+    "f1": 0.8823529411764706,
+    "statements": 181
+  },
+  "rule_baseline": {
+    "exact": 99,
+    "total": 120,
+    "families": {
+      "combo-wait-detour": 5,
+      "combo-wait-parties": 5,
+      "combo-fleet-wait-detour": 5,
+      "combo-detour-parties": 5,
+      "zh-fleet-wait": 1
+    },
+    "single_field_failures": 0
+  },
+  "strict_guard": {
+    "unit-shots0": {
+      "parsed": 120,
+      "admitted": 118,
+      "wrong_admitted": 0
+    },
+    "activated-shots0": {
+      "parsed": 120,
+      "admitted": 119,
+      "wrong_admitted": 0
+    },
+    "static-shots0": {
+      "parsed": 81,
+      "admitted": 54,
+      "wrong_admitted": 0
+    },
+    "deepseek8b-unit-shots0": {
+      "parsed": 118,
+      "admitted": 106,
+      "wrong_admitted": 0
+    },
+    "deepseek8b-activated-shots0": {
+      "parsed": 113,
+      "admitted": 61,
+      "wrong_admitted": 0
+    },
+    "deepseek8b-static-shots0": {
+      "parsed": 104,
+      "admitted": 41,
+      "wrong_admitted": 34
+    }
+  },
+  "numeric_probes": {
+    "handled": 8,
+    "total": 12,
+    "cases": [
+      {
+        "text": "keep the pickup wait at 5 minutes",
+        "field": "max_wait_s",
+        "value": 300,
+        "candidates": [
+          300
+        ],
+        "handled": true
+      },
+      {
+        "text": "keep the pickup wait at 8 minutes",
+        "field": "max_wait_s",
+        "value": 480,
+        "candidates": [
+          480
+        ],
+        "handled": true
+      },
+      {
+        "text": "keep the pickup wait at 12 min",
+        "field": "max_wait_s",
+        "value": 720,
+        "candidates": [
+          12
+        ],
+        "handled": false
+      },
+      {
+        "text": "\u63a5\u9a7e\u7b49\u5f85\u4e0d\u8d85\u8fc7\u516b\u5206\u949f",
+        "field": "max_wait_s",
+        "value": 480,
+        "candidates": [],
+        "handled": false
+      },
+      {
+        "text": "keep the pickup wait at about 10 minutes",
+        "field": "max_wait_s",
+        "value": 600,
+        "candidates": [
+          600
+        ],
+        "handled": true
+      },
+      {
+        "text": "keep the pickup wait between 10 and 12 minutes",
+        "field": "max_wait_s",
+        "value": 600,
+        "candidates": [
+          600,
+          720
+        ],
+        "handled": true
+      },
+      {
+        "text": "charge unserved requests 1.5 hours",
+        "field": "unserved_penalty_s",
+        "value": 5400,
+        "candidates": [
+          5400
+        ],
+        "handled": true
+      },
+      {
+        "text": "charge unserved requests half an hour",
+        "field": "unserved_penalty_s",
+        "value": 1800,
+        "candidates": [],
+        "handled": false
+      },
+      {
+        "text": "charge unserved requests 90 minutes",
+        "field": "unserved_penalty_s",
+        "value": 5400,
+        "candidates": [
+          5400
+        ],
+        "handled": true
+      },
+      {
+        "text": "limit the detour to 30 percent",
+        "field": "max_detour_ratio",
+        "value": 0.3,
+        "candidates": [
+          0.3
+        ],
+        "handled": true
+      },
+      {
+        "text": "limit the detour to forty percent",
+        "field": "max_detour_ratio",
+        "value": 0.4,
+        "candidates": [],
+        "handled": false
+      },
+      {
+        "text": "put 6 vehicles into service",
+        "field": "fleet_size",
+        "value": 6,
+        "candidates": [
+          6
+        ],
+        "handled": true
+      }
+    ]
+  }
+}
