@@ -41,7 +41,9 @@ PYTHONPATH=src python scripts/run_policy_pilot.py \
 `schema-mode` selects the output contract (`static`, `rich`, `activated`, `unit`,
 `subset`). `scripts/audit_components.py` reproduces the component audit reported in the
 paper: activation precision and recall, the rule-based baseline, the strict guard variant,
-and the numeric-extraction probes. Records are written to `results/policy-<corpus>/`; `scripts/summarize_results.py`
+and the numeric-extraction probes. `scripts/audit_rollout_regret.py`
+recomputes rollout match and regret from the saved records, separating statements that
+produced no configuration from those that reached simulation. Records are written to `results/policy-<corpus>/`; `scripts/summarize_results.py`
 recomputes exactness, source acceptance, and false acceptance from those records.
 
 ## Rollout and ambiguity experiments
