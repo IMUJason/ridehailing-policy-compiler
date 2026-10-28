@@ -1,0 +1,30 @@
+{
+  "description": "Rollout best-match recomputed on the first four test scenarios (adds a second origin zone on the same date); solve limit 1 s.",
+  "scenarios": [
+    "rh-20250116-z61-h08",
+    "rh-20250116-z61-h18",
+    "rh-20250116-z76-h08",
+    "rh-20250116-z76-h18"
+  ],
+  "combined_statements": 20,
+  "results": {
+    "unit-shots0": {
+      "valid": 20,
+      "best_match": 20
+    },
+    "activated-shots0": {
+      "valid": 20,
+      "best_match": 19
+    },
+    "static-shots0": {
+      "valid": 2,
+      "best_match": 0,
+      "static_regret_valid": [
+        34727.0,
+        37702.0
+      ],
+      "median_regret_four_scenario": 73773.5,
+      "note": "regret doubles because the score sums over scenarios"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "description": "Weight sensitivity: re-scored cached route records; p0 = unserved weight (s), c0 = empty-travel weight (s per hour).",
+  "combos": [
+    {
+      "p0": 3600,
+      "c0": 1800,
+      "unit_best_match": 20,
+      "activated_best_match": 20,
+      "static_best_match": 0
+    },
+    {
+      "p0": 3600,
+      "c0": 3600,
+      "unit_best_match": 20,
+      "activated_best_match": 20,
+      "static_best_match": 0
+    },
+    {
+      "p0": 3600,
+      "c0": 7200,
+      "unit_best_match": 20,
+      "activated_best_match": 20,
+      "static_best_match": 0
+    },
+    {
+      "p0": 7200,
+      "c0": 1800,
+      "unit_best_match": 20,
+      "activated_best_match": 19,
+      "static_best_match": 0
+    },
+    {
+      "p0": 7200,
+      "c0": 3600,
+      "unit_best_match": 20,
+      "activated_best_match": 19,
+      "static_best_match": 0
+    },
+    {
+      "p0": 7200,
+      "c0": 7200,
+      "unit_best_match": 20,
+      "activated_best_match": 19,
+      "static_best_match": 0
+    },
+    {
+      "p0": 14400,
+      "c0": 1800,
+      "unit_best_match": 20,
+      "activated_best_match": 19,
+      "static_best_match": 0
+    },
+    {
+      "p0": 14400,
+      "c0": 3600,
+      "unit_best_match": 20,
+      "activated_best_match": 19,
+      "static_best_match": 0
+    },
+    {
+      "p0": 14400,
+      "c0": 7200,
+      "unit_best_match": 20,
+      "activated_best_match": 19,
+      "static_best_match": 0
+    }
+  ],
+  "note": "unit 20/20 and static 0/20 under all nine combinations; activated 19/20 except at p0=3600 where its error no longer flips the selection."
+}
