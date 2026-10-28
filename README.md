@@ -5,7 +5,7 @@ statements into simulation configurations, and for testing whether a compiled po
 selects the same rollout decision as its gold counterpart.
 
 The pipeline has four layers: a slot- and unit-preserving output contract, a source-value
-guard that checks every number against the statement, a rollout certificate that sends
+guard that checks every number against the statement, a rollout-stability certificate that sends
 decision-sensitive readings to review, and a counterfactual simulator for service outcomes.
 
 ## Layout
