@@ -58,8 +58,8 @@
     },
     "deepseek8b-static-shots0": {
       "parsed": 104,
-      "admitted": 41,
-      "wrong_admitted": 34
+      "admitted": 1,
+      "wrong_admitted": 0
     }
   },
   "numeric_probes": {

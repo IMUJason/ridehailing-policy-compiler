@@ -24,6 +24,7 @@ def main() -> None:
             "unparsed", len(unparsed),
             "valid", len(valid),
             "best_match", sum(1 for row in records if row["rollout"].get("best_match")),
+            "regrets", regrets,
             "median_regret_valid", statistics.median(regrets) if regrets else None,
         )
 

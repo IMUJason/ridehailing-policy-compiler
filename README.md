@@ -13,7 +13,7 @@ decision-sensitive readings to review, and a counterfactual simulator for servic
 ```
 src/trc_ridehail/     contract schemas, parser, provenance guard, simulator, rollout, certification
 src/lm_client.py      client for an OpenAI-compatible local serving endpoint
-scripts/              experiment drivers and summarisation
+scripts/              experiment drivers and summarization
 data/policies/        120-statement bilingual policy corpus
 data/derived/         demand scenarios, zone-pair travel model, scenario summary
 results/              model outputs per contract, route-level records, rollout and ambiguity results
@@ -63,7 +63,8 @@ python analyze.py --db analysis/survey_clean.db --out analysis/clean
 
 The screening rules are fixed in `survey/QUALITY_PROTOCOL.md`. The released database
 contains participant codes, verdicts, response times, confidence ratings, and free-text
-notes about configurations; it contains no names or contact details.
+notes about configurations; it contains no names or contact details; the free-text notes were screened for identifiers
+before release.
 
 ## Data sources
 
@@ -72,6 +73,6 @@ high-volume for-hire vehicle records, which are public. Raw trip files are not
 redistributed here; `scripts/prepare_data.py` documents how the derived scenarios were
 built from them.
 
-## Licence
+## License
 
 Code: MIT. Derived data and the policy corpus: CC BY 4.0.

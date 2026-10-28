@@ -64,6 +64,8 @@ def rule_config(text: str) -> dict:
 
 
 def strict_accept(text: str, config: dict) -> bool:
+    if set(config) != set(active_fields(text)):
+        return False
     for field, value in config.items():
         candidates = canonical_candidates(text, field)
         if not candidates or not any(abs(value - candidate) < 1e-9 for candidate in candidates):
